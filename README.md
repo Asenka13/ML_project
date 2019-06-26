@@ -9,9 +9,12 @@
 
 ### Data description
 
+File: Dataset_0.csv
 Dataset contains 614 rows and 11 features.
 Features save information about our clients: Gender, Married, Dependents, Education, Self_employed, Applicant Income, Coapplicant income, loan amount, Loan amount term, Credit history, Property area.
 Output is: 1 if we can submit loan for this client, 0 if no.
+
+
 
 ### Data pre-processing
 
@@ -20,7 +23,7 @@ Data pre-processing include several steps:
 2. Analysing continous data;
 3. Encode categorical data into numbers;
 4. Save the pre processed data to a new csv file;
-5. Split the file into training and test files.
+5. Split the file into training and test files: Dataset_Train.csv, Dataset_Test.csv
 
 ### Algorithms
 
